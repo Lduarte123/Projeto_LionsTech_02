@@ -170,4 +170,50 @@ a {
     border-radius: 52px;
     background-color: #C0D0FF;
 }
+/* Estilizando a seção de Perguntas Frequentes */
+.Questions {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.Questions h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+details {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+details[open] {
+    background: #e3f2fd;
+    border-color: #2558EB;
+}
+
+summary {
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: #007bff;
+    outline: none;
+}
+
+summary:hover {
+    color: #0056b3;
+}
+
+p {
+    margin-top: 10px;
+    color: #555;
+    line-height: 1.5;
+}
 
